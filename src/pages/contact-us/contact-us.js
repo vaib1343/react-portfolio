@@ -4,6 +4,7 @@ import ReactContainer from "../../shared/components/react-container/react-contai
 import Input from "../../shared/components/input/input";
 import Textbox from "../../shared/components/textbox/textbox";
 import emailjs from "@emailjs/browser";
+import Button from "../../shared/components/button/button";
 
 function ContactUs() {
     const form = useRef();
@@ -45,6 +46,7 @@ function ContactUs() {
                     name="message"
                     placeholder="Hi! any message"
                 />
+                <Button type="submit">Send</Button>
             </S.container>
         </ReactContainer>
     );
