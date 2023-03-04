@@ -5,6 +5,8 @@ import ContactUs from "./pages/contact-us/contact-us";
 import styled from "styled-components";
 import Social from "./pages/components/social/social";
 import Project from "./pages/project/project";
+import Footer from './pages/Footer/footer';
+
 
 function App() {
     return (
@@ -19,6 +21,7 @@ function App() {
             <Skills />
             <Project />
             <ContactUs />
+            <Footer/>
         </div>
     );
 }
